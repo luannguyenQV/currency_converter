@@ -1,0 +1,23 @@
+.header {
+  height: 150px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.input-section {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.target-money {
+  width: 256px;
+  text-align: center;
+  font-size: 20px;
+}
