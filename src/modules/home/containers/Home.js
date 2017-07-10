@@ -8,7 +8,7 @@ import Home from '../components/Home'
 const mapDispatchToProps = dispatch => ({
   loadCurrency: async (currency) => {
     try {
-      let response = await fetch(`http://api.fixer.io/latest?base=${currency}`)
+      let response = await fetch(`https://api.fixer.io/latest?base=${currency}`)
       let responseJson = await response.json()
       dispatch(loadCurrencyExchange(responseJson))
       return responseJson
